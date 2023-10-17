@@ -7,23 +7,7 @@
 </head>
 <body>
     <header class="header">
-        <div class="contener">
-            <div class="logo"></div>
-            <nav class="header__nav">
-                <ul class="header__list">
-                    <li class="list__items"><a class="list__link" href="#">Home</a></li>
-                    <li class="list__items"><a class="list__link" href="#">Shop</a></li>
-                    <li class="list__items"><a class="list__link" href="#">Portfolio</a></li>
-                    <li class="list__items"><a class="list__link" href="#">About</a></li>
-                    <li class="list__items"><a class="list__link" href="#">Contacts</a></li>
-
-                </ul>
-            </nav>
-            <div class="language">
-                <span><a href="#">ua & ru</a></span>
-            </div>
-            <div class="basket"></div>
-        </div>
+        <include src="./components/header.html"></include>
     </header>
     <main>
         <section>
@@ -40,10 +24,8 @@
         </section>
         
     </main>
-    <footer>
-        <div class="contener">
-
-        </div>
+    <footer class="footer">
+        <include src="./components/footer.html"></include>  
     </footer>
 </body>
 </html>
